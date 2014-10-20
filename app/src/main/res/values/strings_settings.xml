@@ -1,0 +1,33 @@
+<resources>
+    <string name="title_activity_settings">Zonk Settings</string>
+
+    <string name="title_fixed_volume">Fixed Volume</string>
+    <string name="summary_fixed_volume_on">Use fixed volume</string>
+    <string name="summary_fixed_volume_off">Use current system volume</string>
+
+    <string name="title_volume">Volume</string>
+    <string name="summary_volume">Fixed volume (%1$d %%)</string>
+    <string name="message_volume">Adjust the fixed volume :</string>
+    <string name="unit_volume">%</string>
+    <string name="cancel_volume">Cancel</string>
+    <string name="ok_volume">Set volume</string>
+
+    <string name="title_effect">Sound Effect</string>
+    <string name="summary_effect"></string>
+    <string name="default_effect">Dö düm</string>
+
+    <string-array name="entries_effect">
+        <item>Dö düm</item>
+        <item>Ba Dum Tss</item>
+        <item>Wah wah waaah</item>
+        <item>Bam bam baaaam</item>
+    </string-array>
+
+    <string-array name="values_effect">
+        <item>Dö düm</item>
+        <item>Ba Dum Tss</item>
+        <item>Wah wah waaah</item>
+        <item>Bam bam baaaam</item>
+    </string-array>
+
+</resources>

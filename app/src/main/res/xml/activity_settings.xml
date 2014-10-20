@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <ListPreference
+        android:key="key_effect"
+        android:title="@string/title_effect"
+        android:entries="@array/entries_effect"
+        android:entryValues="@array/values_effect"
+        android:defaultValue="zonk"
+        />
+
+    <CheckBoxPreference
+        android:key="key_fixed_volume"
+        android:title="@string/title_fixed_volume"
+        android:summaryOn="@string/summary_fixed_volume_on"
+        android:summaryOff="@string/summary_fixed_volume_off"
+        android:defaultValue="true"
+        />
+
+    <in.konstant.zonk.SliderPreference
+        android:key="key_volume"
+        android:dependency="key_fixed_volume"
+        android:title="@string/title_volume"
+        android:summary="@string/summary_volume"
+        android:text="@string/unit_volume"
+        android:dialogMessage="@string/message_volume"
+        android:max="100"
+        android:defaultValue="50"
+        android:negativeButtonText="@string/cancel_volume"
+        android:positiveButtonText="@string/ok_volume"
+        />
+
+</PreferenceScreen>
